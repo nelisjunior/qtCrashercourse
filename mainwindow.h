@@ -18,6 +18,12 @@ public:
 private slots:
     void on_btnAdd_clicked();
 
+    void on_btnSubtract_clicked();
+
+    void on_btnDivide_clicked();
+
+    void on_btnMultiply_clicked();
+
 private:
     Ui::Calculator *ui;
 };
