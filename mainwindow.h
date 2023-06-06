@@ -4,7 +4,7 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class Calculator; }
+namespace Ui { class ToDoApp; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
@@ -15,16 +15,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private slots:
-    void on_btnAdd_clicked();
-
-    void on_btnSubtract_clicked();
-
-    void on_btnDivide_clicked();
-
-    void on_btnMultiply_clicked();
 
 private:
-    Ui::Calculator *ui;
+    Ui::ToDoApp *ui;
 };
 #endif // MAINWINDOW_H
