@@ -14,3 +14,26 @@ MainWindow::~MainWindow()
 }
 
 
+void MainWindow::on_btn_add_clicked()
+{
+    QListWidgetItem* item = new QListWidgetItem(ui->txtTask->text(), ui->listWidget);
+    ui->listWidget->addItem(item);
+    ui->txtTask->clear();
+    ui->txtTask->setFocus();
+}
+
+
+void MainWindow::on_btn_remove_clicked()
+{
+
+}
+
+
+void MainWindow::on_btn_removeAll_clicked()
+{
+
+}
+
+
+
+

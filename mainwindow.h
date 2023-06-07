@@ -16,6 +16,14 @@ public:
     ~MainWindow();
 
 
+private slots:
+
+    void on_btn_add_clicked();
+
+    void on_btn_remove_clicked();
+
+    void on_btn_removeAll_clicked();
+
 private:
     Ui::ToDoApp *ui;
 };
